@@ -31,7 +31,7 @@ my %WriteMakefileArgs = (
     "IPC::Cmd" => 0,
     "Log::Log4perl" => 0
   },
-  "VERSION" => "0.20",
+  "VERSION" => "0.21",
   "test" => {
     "TESTS" => "t/*.t"
   }

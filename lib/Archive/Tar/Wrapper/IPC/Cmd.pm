@@ -13,7 +13,7 @@ use File::Basename;
 use IPC::Cmd qw(run);
 use Cwd;
 
-our $VERSION = "0.20";
+our $VERSION = "0.21";
 
 ###########################################
 sub new {
@@ -524,17 +524,16 @@ version 0.002
 
 =head1 DESCRIPTION
 
-	Archive::Tar::Wrapper::IPC::Cmd is a fork of Michael Schilli's L<Archive::Tar::Wrapper>.
-	Removed: IPC::Run, IO::Pty
-	Added:   IPC::Cmd
+Archive::Tar::Wrapper::IPC::Cmd is a fork of Michael Schilli's L<Archive::Tar::Wrapper>
+Removed: IPC::Run, IO::Pty
+Added:   IPC::Cmd
 	
 =head1 COPYRIGHT AND LICENSE
-	This software is copyright (c) 2012 by Krzysztof Bieszczad.
 
-	This is free software; you can redistribute it and/or modify it under
-	the same terms as the Perl 5 programming language system itself.
+This software is copyright (c) 2012 by Krzysztof Bieszczad.
 
-
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
 
 =cut
 
