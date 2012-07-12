@@ -13,7 +13,7 @@ use File::Basename;
 use IPC::Cmd qw(run);
 use Cwd;
 
-our $VERSION = "0.21";
+our $VERSION = "0.22";
 
 ###########################################
 sub new {
@@ -516,11 +516,11 @@ __END__
 
 =head1 NAME
 
-	Archive-Tar-Wrapper minus IPC::Run, IO::Pty
+Archive::Tar::Wrapper::IPC::Cmd - L<Archive::Tar::Wrapper> minus IPC::Run, IO::Pty
 
 =head1 VERSION
 
-version 0.002 
+version 0.22
 
 =head1 DESCRIPTION
 
